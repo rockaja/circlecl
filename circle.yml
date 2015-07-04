@@ -1,3 +1,7 @@
+machine:
+timezone:
+  America/Los_Angeles # Set the timezone
+
 general:
   build_dir: api
 
@@ -14,6 +18,6 @@ database:
   override:
     - mysql -u ubuntu circle_test < my-database-setup.sql
 
-test:
-  override:
-    - php ./test-suite/run.php --unit-tests
+#test:
+#  override:
+#    - php ./test-suite/run.php --unit-tests
