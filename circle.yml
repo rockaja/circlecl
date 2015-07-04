@@ -6,8 +6,7 @@ general:
 
 checkout:
   post:
-    - cp ./index.html ./app
-    - cp ./api ./app
+    - cp ./index.html ./app/index.html
 
 dependencies:
   post:
