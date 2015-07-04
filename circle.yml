@@ -8,9 +8,9 @@ checkout:
 general:
   build_dir: api
 
-dependencies:
-  post:
-    - python ./install-packages
+#dependencies:
+#  post:
+#    - python ./install-packages
 
 database:
   override:
