@@ -1,9 +1,10 @@
 machine:
-  timezone: America/Los_Angeles # Set the timezone
+  timezone: Europe/London # Set the timezone
 
 checkout:
   post:
    # - cp index.html app/index.html
+     - echo "test a test" > touch test.test
 
 general:
   build_dir: api
