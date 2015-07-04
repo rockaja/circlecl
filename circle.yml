@@ -1,6 +1,5 @@
 machine:
-timezone:
-  America/Los_Angeles # Set the timezone
+  timezone: America/Los_Angeles # Set the timezone
 
 general:
   build_dir: api
