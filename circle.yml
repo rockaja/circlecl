@@ -3,7 +3,7 @@ machine:
 
 checkout:
   post:
-    - cp ./index.html ./app/index.html
+    - cp index.html app/index.html
 
 general:
   build_dir: api
