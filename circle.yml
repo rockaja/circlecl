@@ -4,7 +4,6 @@ machine:
 checkout:
   post:
    # - cp index.html app/index.html
-   #  - echo "test a test" > test.test
 
 general:
   build_dir: api
