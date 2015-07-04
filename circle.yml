@@ -12,9 +12,9 @@ general:
 #  post:
 #    - python ./install-packages
 
-database:
-  override:
-    - mysql -u ubuntu circle_test < my-database-setup.sql
+#database:
+#  override:
+#    - mysql -u ubuntu circle_test < my-database-setup.sql
 
 #test:
 #  override:
