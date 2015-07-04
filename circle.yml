@@ -1,12 +1,12 @@
 machine:
   timezone: America/Los_Angeles # Set the timezone
 
-general:
-  build_dir: api
-
 checkout:
   post:
     - cp ./index.html ./app/index.html
+
+general:
+  build_dir: api
 
 dependencies:
   post:
