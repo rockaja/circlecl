@@ -3,14 +3,14 @@ machine:
 
 checkout:
   post:
-   # - cp index.html app/index.html
+   - #!/usr/bin/bash cp index.html app/index.html
 
 general:
   build_dir: api
 
-#dependencies:
-#  post:
-#    - python ./install-packages
+dependencies:
+  post:
+    #- python ./install-packages
 
 #database:
 #  override:
